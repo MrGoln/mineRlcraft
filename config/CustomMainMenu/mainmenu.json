@@ -3,21 +3,13 @@
     {
         "title":
         {
-            "image" : "custommainmenu:textures/gui/minecraft.png",
-            "posX" : -137,
+            "image" : "mainmenu:rlcraft.png",
+            "posX" : -135,
             "posY" : 30,
-            "width" : 512,
-            "height" : 512,
-            "alignment" : "top_center"
-        },
-        
-        "edition":
-        {
-            "image" : "custommainmenu:textures/gui/edition.png",
-            "posX" : -49,
-            "posY" : 67,
-            "width" : 128,
-            "height" : 16,
+            "width" : 275,
+            "height" : 55,
+            "imageWidth" : 1000,
+            "imageHeight" : 200,
             "alignment" : "top_center"
         }
     },
@@ -28,9 +20,12 @@
         {
             "text" : "menu.singleplayer",
             "posX" : -100,
-            "posY" : 48,
+            "posY" : 36,
             "width" : 200,
             "height" : 20,
+            "imageWidth" : 1000,
+            "imageHeight" : 125,
+			"texture" : "mainmenu:buttonlong.png",
             "action" : 
             {
                 "type" : "openGui",
@@ -42,9 +37,12 @@
         {
             "text" : "menu.multiplayer",
             "posX" : -100,
-            "posY" : 72,
+            "posY" : 60,
             "width" : 200,
             "height" : 20,
+            "imageWidth" : 1000,
+            "imageHeight" : 125,
+			"texture" : "mainmenu:buttonlong.png",
             "action" : 
             {
                 "type" : "openGui",
@@ -56,13 +54,34 @@
         {
             "text" : "fml.menu.mods",
             "posX" : -100,
-            "posY" : 96,
+            "posY" : 84,
             "width" : 200,
             "height" : 20,
+            "imageWidth" : 1000,
+            "imageHeight" : 125,
+			"texture" : "mainmenu:buttonlong.png",
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "mods"
+            }
+        },
+		
+        "hosting":
+        {
+            "text" : "Host your own server!",
+            "posX" : -100,
+            "posY" : 108,
+            "width" : 200,
+            "height" : 20,
+            "imageWidth" : 1000,
+            "imageHeight" : 125,
+			"texture" : "mainmenu:buttonlong.png",
+			"hoverText" : "By BisectHosting, use code Shivaxi",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://bisecthosting.com/shivaxi"
             }
         },
             
@@ -73,6 +92,9 @@
             "posY" : 132,
             "width" : 98,
             "height" : 20,
+            "imageWidth" : 500,
+            "imageHeight" : 125,
+			"texture" : "mainmenu:button.png",
             "action" : 
             {
                 "type" : "openGui",
@@ -86,38 +108,14 @@
             "posX" : 2,
             "posY" : 132,
             "width" : 98,
+            "imageWidth" : 500,
+            "imageHeight" : 125,
             "height" : 20,
+			"texture" : "mainmenu:button.png",
+			"hoverText" : "Embrace Cowardice?",
             "action" : 
             {
                 "type" : "quit"
-            }
-        },
-        
-        "language":
-        {
-            "text" : "",
-            "posX" : -124,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "languages"
-            }
-        },
-        
-        "refresh":
-        {
-            "text" : "",
-            "posX" : -154,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
-            "texture" : "custommainmenu:textures/gui/buttons.png",
-            "action" : 
-            {
-                "type" : "refresh"
             }
         }
     },
@@ -128,45 +126,98 @@
         {
             "text" : "Copyright Mojang AB. Do not distribute!",
             "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
-            "posX" : -197,
-            "posY" : -10,
+            "posX" : 5,
+            "posY" : 5,
             "color" : -1,
-            "alignment" : "bottom_right",
+            "alignment" : "top_left",
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "credits"
             }
         },
-        
-        "fml":
+		
+        "wiki":
         {
-            "text" : "",
-            "posX" : 2,
-            "posY" : -40,
+            "text" : "RLCraft Wiki",
+            "hoverText" : "§nRLCraft Wiki",
+            "posX" : 5,
+            "posY" : 16,
             "color" : -1,
-            "alignment" : "bottom_left"
+            "alignment" : "top_left",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://rlcraft.fandom.com/wiki/RLCraft_Wiki"
+            }
+        },
+		
+        "reddit":
+        {
+            "text" : "RLCraft Reddit",
+            "hoverText" : "§nRLCraft Reddit",
+            "posX" : 5,
+            "posY" : 27,
+            "color" : -1,
+            "alignment" : "top_left",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://www.reddit.com/r/RLCraft"
+            }
+        },
+        
+        "mods_loaded":{
+           "text":"#modsloaded# Mods Loaded",
+           "posX":55,
+           "posY":-28,
+           "width":90,
+           "height":0,
+           "alignment":"bottom_left"
+        },
+		"rl_craft":{
+			"text":"RLCraft v2.8.2 (By Shivaxi)",
+			"posX":55,
+			"posY":-38,
+			"width":90,
+			"height":0,
+			"alignment":"bottom_left"
+		},
+        "clock":{
+           "text":"#time# #date#",
+           "posX":-110,
+           "posY":-33,
+           "width":90,
+           "height":0,
+           "alignment":"bottom_right"
         }
     },
     
-    "other":
-    {
-        "splash-text":
-        {
-            "posX" : 90,
-            "posY" : 70,
-            "color" : -256,
-            "alignment" : "top_center",
-            "texts" : "file:minecraft:texts/splashes.txt"
-        },
-        
-        "panorama":
-        {
-            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
-            "animate" : true,
-            "animationSpeed" : 1,
-            "blur" : true,
-            "gradient" : true
-        }
+    "other": {
+		"background": {
+			"image": "",
+			"slideshow": {
+				"images": [
+					"mainmenu:images/0.jpg",
+					"mainmenu:images/1.jpg",
+					"mainmenu:images/2.jpg",
+					"mainmenu:images/3.jpg",
+					"mainmenu:images/4.jpg",
+					"mainmenu:images/5.jpg",
+					"mainmenu:images/6.jpg",
+					"mainmenu:images/7.jpg",
+					"mainmenu:images/8.jpg",
+					"mainmenu:images/9.jpg",
+					"mainmenu:images/10.jpg",
+					"mainmenu:images/11.jpg",
+					"mainmenu:images/12.jpg",
+					"mainmenu:images/13.jpg",
+					"mainmenu:images/14.jpg"
+				],
+				"displayDuration": 50,
+				"fadeDuration": 100,
+				"mode":"fill"
+			}
+		}
     }
 }

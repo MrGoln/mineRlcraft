@@ -1,0 +1,15 @@
+{
+  "clientToken": "b929f4f4-5d2f-4aba-bd76-901939605140",
+  "accounts": {
+    "5fbd7f9a198841998a77632e1db3295c": {
+      "username": "MrGoin",
+      "userID": "MrGoin",
+      "displayName": "MrGoin",
+      "uuid": "5fbd7f9a198841998a77632e1db3295c",
+      "type": "free",
+      "premiumAccount": false
+    }
+  },
+  "selectedAccountUUID": "5fbd7f9a198841998a77632e1db3295c",
+  "freeAccountUUID": "5fbd7f9a198841998a77632e1db3295c"
+}

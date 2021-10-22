@@ -1,15 +1,15 @@
 {
-  "clientToken": "b929f4f4-5d2f-4aba-bd76-901939605140",
+  "clientToken": "a8de819e-9ac3-4142-9f10-d21f5c26d38b",
   "accounts": {
-    "5fbd7f9a198841998a77632e1db3295c": {
+    "7d6e29eb678542bb8d9f70f1eaa13911": {
       "username": "MrGoin",
       "userID": "MrGoin",
       "displayName": "MrGoin",
-      "uuid": "5fbd7f9a198841998a77632e1db3295c",
+      "uuid": "7d6e29eb678542bb8d9f70f1eaa13911",
       "type": "free",
       "premiumAccount": false
     }
   },
-  "selectedAccountUUID": "5fbd7f9a198841998a77632e1db3295c",
-  "freeAccountUUID": "5fbd7f9a198841998a77632e1db3295c"
+  "selectedAccountUUID": "7d6e29eb678542bb8d9f70f1eaa13911",
+  "freeAccountUUID": "7d6e29eb678542bb8d9f70f1eaa13911"
 }

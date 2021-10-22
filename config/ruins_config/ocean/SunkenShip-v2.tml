@@ -5,11 +5,12 @@
 
 biomesToSpawnIn=ocean,deep ocean,kelp forest,ocean oil field,oceanic abyss,coral reef
 weight=5
+acceptable_target_blocks=stone,grass,dirt,sand,gravel,clay
 embed_into_distance=3
 dimensions=20,11,36
 allowable_overhang=12
 max_leveling=5
-leveling_buffer=-1
+leveling_buffer=0
 preserve_water=1
 preserve_plants=1
 

@@ -9,7 +9,7 @@
   "minimumLauncherVersion": 18,
   "tlauncherVersion": 0,
   "assets": "1.12",
-  "source": "local_version_repo",
+  "source": "skin_version_repo",
   "libraries": [
     {
       "name": "net.minecraftforge:forge:1.12.2-14.23.5.2855",

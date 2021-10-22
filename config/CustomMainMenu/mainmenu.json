@@ -1,223 +1,257 @@
 {
-    "images":
-    {
-        "title":
-        {
-            "image" : "mainmenu:rlcraft.png",
-            "posX" : -135,
-            "posY" : 30,
-            "width" : 275,
-            "height" : 55,
-            "imageWidth" : 1000,
-            "imageHeight" : 200,
-            "alignment" : "top_center"
-        }
+  "images": {
+    "modpack": {
+      "image": "modpack:logo1.png",
+      "posX": -118,
+      "posY": -120,
+      "height": 230,
+      "width": 230,
+      "imageWidth": 612,
+      "imageHeight": 512,
+      "alignment": "center"
+    }
+  },
+
+  "buttons": {
+    "singleplayer": {
+      "text": "menu.singleplayer",
+      "posX": -100,
+      "posY": 0,
+      "width": 98,
+      "height": 20,
+      "alignment": "center",
+      "texture": "modpack:shortbutton.png",
+      "action": {
+        "type": "openGui",
+        "gui": "singleplayer"
+      }
     },
-    
-    "buttons":
-    {
-        "singleplayer":
-        {
-            "text" : "menu.singleplayer",
-            "posX" : -100,
-            "posY" : 36,
-            "width" : 200,
-            "height" : 20,
-            "imageWidth" : 1000,
-            "imageHeight" : 125,
-			"texture" : "mainmenu:buttonlong.png",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "singleplayer"
-            }
-        },
-        
-        "multiplayer":
-        {
-            "text" : "menu.multiplayer",
-            "posX" : -100,
-            "posY" : 60,
-            "width" : 200,
-            "height" : 20,
-            "imageWidth" : 1000,
-            "imageHeight" : 125,
-			"texture" : "mainmenu:buttonlong.png",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "multiplayer"
-            }
-        },
-        
-        "mods":
-        {
-            "text" : "fml.menu.mods",
-            "posX" : -100,
-            "posY" : 84,
-            "width" : 200,
-            "height" : 20,
-            "imageWidth" : 1000,
-            "imageHeight" : 125,
-			"texture" : "mainmenu:buttonlong.png",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "mods"
-            }
-        },
-		
-        "hosting":
-        {
-            "text" : "Host your own server!",
-            "posX" : -100,
-            "posY" : 108,
-            "width" : 200,
-            "height" : 20,
-            "imageWidth" : 1000,
-            "imageHeight" : 125,
-			"texture" : "mainmenu:buttonlong.png",
-			"hoverText" : "By BisectHosting, use code Shivaxi",
-            "action" : 
-            {
-                "type" : "openLink",
-                "link" : "https://bisecthosting.com/shivaxi"
-            }
-        },
-            
-        "options":
-        {
-            "text" : "menu.options",
-            "posX" : -100,
-            "posY" : 132,
-            "width" : 98,
-            "height" : 20,
-            "imageWidth" : 500,
-            "imageHeight" : 125,
-			"texture" : "mainmenu:button.png",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "options"
-            }
-        },
-        
-        "quit":
-        {
-            "text" : "menu.quit",
-            "posX" : 2,
-            "posY" : 132,
-            "width" : 98,
-            "imageWidth" : 500,
-            "imageHeight" : 125,
-            "height" : 20,
-			"texture" : "mainmenu:button.png",
-			"hoverText" : "Embrace Cowardice?",
-            "action" : 
-            {
-                "type" : "quit"
-            }
-        }
+    "multiplayer": {
+      "text": "menu.multiplayer",
+      "posX": 2,
+      "posY": 0,
+      "width": 98,
+      "height": 20,
+      "alignment": "center",
+      "texture": "modpack:shortbutton.png",
+      "action": {
+        "type": "openGui",
+        "gui": "multiplayer"
+      }
     },
-    
-    "labels":
-    {
-        "mojang":
-        {
-            "text" : "Copyright Mojang AB. Do not distribute!",
-            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
-            "posX" : 5,
-            "posY" : 5,
-            "color" : -1,
-            "alignment" : "top_left",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "credits"
-            }
-        },
-		
-        "wiki":
-        {
-            "text" : "RLCraft Wiki",
-            "hoverText" : "§nRLCraft Wiki",
-            "posX" : 5,
-            "posY" : 16,
-            "color" : -1,
-            "alignment" : "top_left",
-            "action" : 
-            {
-                "type" : "openLink",
-                "link" : "https://rlcraft.fandom.com/wiki/RLCraft_Wiki"
-            }
-        },
-		
-        "reddit":
-        {
-            "text" : "RLCraft Reddit",
-            "hoverText" : "§nRLCraft Reddit",
-            "posX" : 5,
-            "posY" : 27,
-            "color" : -1,
-            "alignment" : "top_left",
-            "action" : 
-            {
-                "type" : "openLink",
-                "link" : "https://www.reddit.com/r/RLCraft"
-            }
-        },
-        
-        "mods_loaded":{
-           "text":"#modsloaded# Mods Loaded",
-           "posX":55,
-           "posY":-28,
-           "width":90,
-           "height":0,
-           "alignment":"bottom_left"
-        },
-		"rl_craft":{
-			"text":"RLCraft v2.8.2 (By Shivaxi)",
-			"posX":55,
-			"posY":-38,
-			"width":90,
-			"height":0,
-			"alignment":"bottom_left"
-		},
-        "clock":{
-           "text":"#time# #date#",
-           "posX":-110,
-           "posY":-33,
-           "width":90,
-           "height":0,
-           "alignment":"bottom_right"
-        }
+    "mods": {
+      "text": "Mods",
+      "posX": 2,
+      "posY": 25,
+      "width": 98,
+      "height": 20,
+      "alignment": "center",
+      "texture": "modpack:shortbutton.png",
+      "action": {
+        "type": "openGui",
+        "gui": "mods"
+      }
     },
-    
-    "other": {
-		"background": {
-			"image": "",
-			"slideshow": {
-				"images": [
-					"mainmenu:images/0.jpg",
-					"mainmenu:images/1.jpg",
-					"mainmenu:images/2.jpg",
-					"mainmenu:images/3.jpg",
-					"mainmenu:images/4.jpg",
-					"mainmenu:images/5.jpg",
-					"mainmenu:images/6.jpg",
-					"mainmenu:images/7.jpg",
-					"mainmenu:images/8.jpg",
-					"mainmenu:images/9.jpg",
-					"mainmenu:images/10.jpg",
-					"mainmenu:images/11.jpg",
-					"mainmenu:images/12.jpg",
-					"mainmenu:images/13.jpg",
-					"mainmenu:images/14.jpg"
-				],
-				"displayDuration": 50,
-				"fadeDuration": 100,
-				"mode":"fill"
-			}
-		}
+    "server rent": {
+      "text": "Rent a Server",
+      "posX": 2,
+      "posY": 50,
+      "width": 98,
+      "height": 20,
+      "alignment": "center",
+      "texture": "modpack:shortbutton.png",
+      "action": {
+        "type": "openLink",
+        "link": "https://bisecthosting.com/nemezissfpro"
+      }
+    },
+    "pack support": {
+      "text": "Support",
+      "posX": -100,
+      "posY": 50,
+      "width": 98,
+      "height": 20,
+      "alignment": "center",
+      "texture": "modpack:shortbutton.png",
+      "action": {
+        "type": "openLink",
+        "link": "https://minecraft.curseforge.com/projects/hexxit-reloaded"
+      }
+    },
+    "options": {
+      "text": "menu.options",
+      "posX": -100,
+      "posY": 25,
+      "width": 98,
+      "height": 20,
+      "alignment": "center",
+      "texture": "modpack:shortbutton.png",
+      "action": {
+        "type": "openGui",
+        "gui": "options"
+      }
+    },
+    "quit": {
+      "text": "menu.quit",
+      "posX": -100,
+      "posY": 75,
+      "width": 200,
+      "height": 20,
+      "alignment": "center",
+      "texture": "modpack:test2.png",
+      "action": {
+        "type": "quit"
+      }
+    },
+    "language": {
+      "text": "",
+      "posX": 105,
+      "posY": 75,
+      "width": 20,
+      "height": 20,
+      "tooltip": "Language",
+      "alignment": "center",
+      "imageWidth": "40",
+      "imageHeight": "40",
+      "texture": "modpack:lang.png",
+      "action": {
+        "type": "openGui",
+        "gui": "languages"
+      }
+    },
+    "creeperhost": {
+      "text": "",
+      "posX": 105,
+      "posY": 50,
+      "width": 20,
+      "height": 20,
+      "alignment": "center",
+      "tooltip": "Get a Server Today!",
+      "texture": "mainmenu:creeperhost.png",
+      "imageWidth": "40",
+      "imageHeight": "40",
+      "wrappedButton": 30051988
+    },
+    "creeperhost_minigames": {
+      "text": "MineTogether Minigames",
+      "posX": -100,
+      "posY": 50,
+      "width": 200,
+      "height": 20,
+      "alignment": "center",
+      "texture": "mainmenu:longbutton.png",
+      "wrappedButton": 3735928559
+    }
+  },
+
+  "labels": {
+    "modpack": {
+      "text": "Hexxit Remasterd 3.1v",
+      "posX": 3,
+      "posY": -31,
+      "fontSize": 0.6,
+      "color": -1,
+      "hoverColor": -1,
+      "alignment": "bottom_left"
+    },
+    "minecraft": {
+      "text": "Minecraft #mcversion#",
+      "posX": 3,
+      "posY": -25,
+      "fontSize": 0.6,
+      "color": -1,
+      "hoverColor": -1,
+      "alignment": "bottom_left"
+    },
+    "forge": {
+      "text": "Forge #forgeversion#",
+      "posX": 3,
+      "posY": -19,
+      "fontSize": 0.6,
+      "color": -1,
+      "hoverColor": -1,
+      "alignment": "bottom_left"
+    },
+    "modsloaded": {
+      "text": "#modsloaded# Mods Loaded",
+      "posX": 3,
+      "posY": -13,
+      "fontSize": 0.6,
+      "color": -1,
+      "hoverColor": -1,
+      "alignment": "bottom_left"
+    },
+    "modsactive": {
+      "text": "#modsactive# Mods Active",
+      "posX": 3,
+      "posY": -7,
+      "fontSize": 0.6,
+      "color": -1,
+      "hoverColor": -1,
+      "alignment": "bottom_left"
+    },
+    "newsLine1": {
+      "text": "",
+      "posX": 16,
+      "posY": 16,
+      "fontSize": 1.15,
+      "color": 13048410,
+      "hoverColor": 13048410,
+      "alignment": "top_left"
+    },
+    "newsLine2": {
+      "text": "",
+      "posX": 16,
+      "posY": 30,
+      "fontSize": 1.15,
+      "color": 13048410,
+      "hoverColor": 13048410,
+      "alignment": "top_left"
+    },
+    "newsLine3": {
+      "text": "",
+      "posX": 16,
+      "posY": 44,
+      "fontSize": 1.15,
+      "color": 13048410,
+      "hoverColor": 13048410,
+      "alignment": "top_left"
+    },
+    "newsLine4": {
+      "text": "",
+      "hoverText": "",
+      "posX": 16,
+      "posY": 73,
+      "fontSize": 1.25,
+      "color": -1,
+      "hoverColor": -1,
+      "alignment": "top_left"
+    },
+    "mojang": {
+      "text": "Copyright Mojang AB",
+      "posX": -65,
+      "posY": -7,
+      "fontSize": 0.6,
+      "color": -1,
+      "hoverColor": -1,
+      "hoverText": "Â§nCopyright Mojang AB",
+      "alignment": "bottom_right",
+      "action": {
+        "type": "openGui",
+        "gui": "credits"
+      }
+    }
+  },
+
+    "other":
+    {
+        "panorama":
+        {
+            "images" : "modpack:panorama/panorama_%c.png",
+            "animate" : true,
+            "animationSpeed" : 2,
+            "blur" : true,
+            "gradient" : true
+        }
     }
 }

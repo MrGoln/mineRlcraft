@@ -1,0 +1,5435 @@
+{
+  "biome": "nex:ruthless_sands",
+  "weight": 8,
+  "enabled": true,
+  "genDefaultFeatures": true,
+  "blocks": {
+    "wallBlock": {
+      "block": "nex:netherrack",
+      "properties": {
+        "type": "gloomy"
+      }
+    },
+    "fillerBlock": {
+      "block": "nex:netherrack",
+      "properties": {
+        "type": "gloomy"
+      }
+    },
+    "oceanBlock": {
+      "block": "minecraft:lava"
+    },
+    "ceilingBottomBlock": {
+      "block": "nex:netherrack",
+      "properties": {
+        "type": "gloomy"
+      }
+    },
+    "topBlock": {
+      "block": "minecraft:soul_sand"
+    },
+    "ceilingFillerBlock": {
+      "block": "nex:netherrack",
+      "properties": {
+        "type": "gloomy"
+      }
+    }
+  },
+  "entities": [
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 4,
+      "weight": 65,
+      "creatureType": "monster",
+      "entity": "minecraft:wither_skeleton"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 4,
+      "weight": 45,
+      "creatureType": "monster",
+      "entity": "minecraft:zombie_pigman"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 4,
+      "weight": 100,
+      "creatureType": "monster",
+      "entity": "nex:spinout"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "monster",
+      "entity": "cavern:cavenic_skeleton"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 30,
+      "creatureType": "monster",
+      "entity": "cavern:cavenic_creeper"
+    },
+    {
+      "minGroupCount": 2,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 30,
+      "creatureType": "monster",
+      "entity": "cavern:cavenic_zombie"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 30,
+      "creatureType": "monster",
+      "entity": "cavern:cavenic_spider"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 15,
+      "creatureType": "monster",
+      "entity": "cavern:cavenic_witch"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 30,
+      "creatureType": "monster",
+      "entity": "cavern:cavenic_bear"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 1,
+      "creatureType": "monster",
+      "entity": "cavern:crazy_skeleton"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 1,
+      "creatureType": "monster",
+      "entity": "cavern:crazy_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 1,
+      "creatureType": "monster",
+      "entity": "cavern:crazy_zombie"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 1,
+      "creatureType": "monster",
+      "entity": "cavern:crazy_spider"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 30,
+      "creatureType": "monster",
+      "entity": "cavern:caveman"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 10,
+      "creatureType": "monster",
+      "entity": "thaumcraft:firebat"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 5,
+      "creatureType": "monster",
+      "entity": "thaumcraft:wisp"
+    },
+    {
+      "minGroupCount": 4,
+      "spawn": true,
+      "maxGroupCount": 6,
+      "weight": 8,
+      "creatureType": "monster",
+      "entity": "natura:nitrocreeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 4,
+      "weight": 6,
+      "creatureType": "monster",
+      "entity": "bewitchment:uran"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 4,
+      "weight": 6,
+      "creatureType": "monster",
+      "entity": "bewitchment:hellhound"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 1,
+      "creatureType": "monster",
+      "entity": "bewitchment:hellhound_alpha"
+    },
+    {
+      "minGroupCount": 8,
+      "spawn": true,
+      "maxGroupCount": 12,
+      "weight": 10,
+      "creatureType": "creature",
+      "entity": "natura:imp"
+    },
+    {
+      "minGroupCount": 4,
+      "spawn": true,
+      "maxGroupCount": 4,
+      "weight": 100,
+      "creatureType": "water_creature",
+      "entity": "cavern:squid"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 70,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:haunted_tool"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:treasure_slime"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:harpy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 40,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:mother_spider"
+    },
+    {
+      "minGroupCount": 3,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 50,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:goblin"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 30,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:support_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:trollager"
+    },
+    {
+      "minGroupCount": 3,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:skeleton_warrior"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:rocket_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:bewitched_tome"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 5,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:trollager"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:void_eye"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:goblin"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:festive_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:bewitched_tome"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:festive_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:blazing_juggernaut"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 100,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:dodo"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_passive",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:traveling_merchant"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 40,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:sheepman"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:filch_lizard"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 4,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:lost_miner"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_water",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_lava",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:trollager"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:festive_creeper"
+    },
+    {
+      "minGroupCount": 3,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:skeleton_warrior"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:harpy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:festive_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 70,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:haunted_tool"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 40,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:mother_spider"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:goblin"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 30,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:support_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:void_eye"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 5,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:trollager"
+    },
+    {
+      "minGroupCount": 3,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 50,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:goblin"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:bewitched_tome"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:bewitched_tome"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:rocket_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:blazing_juggernaut"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:treasure_slime"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:filch_lizard"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 4,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:lost_miner"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_passive",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:traveling_merchant"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 40,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:sheepman"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 100,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:dodo"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_water",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_lava",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 70,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:haunted_tool"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 3,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:skeleton_warrior"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:festive_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 30,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:support_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:trollager"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 40,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:mother_spider"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:bewitched_tome"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:blazing_juggernaut"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:treasure_slime"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:harpy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 5,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:trollager"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:festive_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:bewitched_tome"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:rocket_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 4,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:lost_miner"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_passive",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:traveling_merchant"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 40,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:sheepman"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 100,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:dodo"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:filch_lizard"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_water",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_lava",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 3,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 50,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:goblin"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:festive_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:treasure_slime"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:blazing_juggernaut"
+    },
+    {
+      "minGroupCount": 3,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:skeleton_warrior"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 5,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:trollager"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 40,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:mother_spider"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 70,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:haunted_tool"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:trollager"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 30,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:support_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:harpy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:bewitched_tome"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:festive_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:goblin"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 4,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:lost_miner"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:filch_lizard"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 40,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:sheepman"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_passive",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 100,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:dodo"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:traveling_merchant"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_water",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_lava",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 3,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:skeleton_warrior"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:trollager"
+    },
+    {
+      "minGroupCount": 3,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 50,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:goblin"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 70,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:haunted_tool"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:bewitched_tome"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:bewitched_tome"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:rocket_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:traveling_merchant"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:filch_lizard"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_passive",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 4,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:lost_miner"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 40,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:sheepman"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 100,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:dodo"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_water",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_lava",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:festive_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:bewitched_tome"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:goblin"
+    },
+    {
+      "minGroupCount": 3,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:skeleton_warrior"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:void_eye"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 70,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:haunted_tool"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:treasure_slime"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:bewitched_tome"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:blazing_juggernaut"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:traveling_merchant"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 100,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:dodo"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 4,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:lost_miner"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_passive",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 40,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:sheepman"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:filch_lizard"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_water",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_lava",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:harpy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:festive_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 70,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:haunted_tool"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:bewitched_tome"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 40,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:mother_spider"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 5,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:trollager"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 30,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:support_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:goblin"
+    },
+    {
+      "minGroupCount": 3,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 50,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:goblin"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:void_eye"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:festive_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:blazing_juggernaut"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_passive",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 100,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:dodo"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 40,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:sheepman"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:filch_lizard"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 4,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:lost_miner"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:traveling_merchant"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_water",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_lava",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:bewitched_tome"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:blazing_juggernaut"
+    },
+    {
+      "minGroupCount": 3,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 50,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:goblin"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:filch_lizard"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 4,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:lost_miner"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 100,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:dodo"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:traveling_merchant"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 40,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:sheepman"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_passive",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_water",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_lava",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 1,
+      "creatureType": "monster",
+      "entity": "ebwizardry:lightning_wraith"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 3,
+      "creatureType": "monster",
+      "entity": "ebwizardry:evil_wizard"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "monster",
+      "entity": "cavern:cavenic_skeleton"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 30,
+      "creatureType": "monster",
+      "entity": "cavern:cavenic_creeper"
+    },
+    {
+      "minGroupCount": 2,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 30,
+      "creatureType": "monster",
+      "entity": "cavern:cavenic_zombie"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 30,
+      "creatureType": "monster",
+      "entity": "cavern:cavenic_spider"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 15,
+      "creatureType": "monster",
+      "entity": "cavern:cavenic_witch"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 30,
+      "creatureType": "monster",
+      "entity": "cavern:cavenic_bear"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 1,
+      "creatureType": "monster",
+      "entity": "cavern:crazy_skeleton"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 1,
+      "creatureType": "monster",
+      "entity": "cavern:crazy_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 1,
+      "creatureType": "monster",
+      "entity": "cavern:crazy_zombie"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 1,
+      "creatureType": "monster",
+      "entity": "cavern:crazy_spider"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 30,
+      "creatureType": "monster",
+      "entity": "cavern:caveman"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 10,
+      "creatureType": "monster",
+      "entity": "thaumcraft:firebat"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 5,
+      "creatureType": "monster",
+      "entity": "thaumcraft:wisp"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 4,
+      "creatureType": "monster",
+      "entity": "mowziesmobs:barakoana"
+    },
+    {
+      "minGroupCount": 4,
+      "spawn": true,
+      "maxGroupCount": 6,
+      "weight": 8,
+      "creatureType": "monster",
+      "entity": "natura:nitrocreeper"
+    },
+    {
+      "minGroupCount": 8,
+      "spawn": true,
+      "maxGroupCount": 12,
+      "weight": 10,
+      "creatureType": "creature",
+      "entity": "natura:imp"
+    },
+    {
+      "minGroupCount": 4,
+      "spawn": true,
+      "maxGroupCount": 4,
+      "weight": 100,
+      "creatureType": "water_creature",
+      "entity": "cavern:squid"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:festive_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:void_eye"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:bewitched_tome"
+    },
+    {
+      "minGroupCount": 3,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:skeleton_warrior"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:bewitched_tome"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 40,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:mother_spider"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:trollager"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:festive_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:harpy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 30,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:support_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:blazing_juggernaut"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 70,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:haunted_tool"
+    },
+    {
+      "minGroupCount": 3,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 50,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:goblin"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:goblin"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:treasure_slime"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:rocket_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 5,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:trollager"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_passive",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 4,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:lost_miner"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:traveling_merchant"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 40,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:sheepman"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:filch_lizard"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 100,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:dodo"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_water",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_lava",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 5,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:trollager"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 40,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:mother_spider"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:bewitched_tome"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:festive_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:festive_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:treasure_slime"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:bewitched_tome"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:trollager"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 30,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:support_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:goblin"
+    },
+    {
+      "minGroupCount": 3,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 50,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:goblin"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 70,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:haunted_tool"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:rocket_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:blazing_juggernaut"
+    },
+    {
+      "minGroupCount": 3,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:skeleton_warrior"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 100,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:dodo"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_passive",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:traveling_merchant"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 4,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:lost_miner"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:filch_lizard"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 40,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:sheepman"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_water",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_lava",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:festive_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:bewitched_tome"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:goblin"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 70,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:haunted_tool"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:treasure_slime"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:trollager"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 40,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:mother_spider"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:blazing_juggernaut"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 5,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:trollager"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:void_eye"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:bewitched_tome"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:harpy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:traveling_merchant"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_passive",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 4,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:lost_miner"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 100,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:dodo"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 40,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:sheepman"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:filch_lizard"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_water",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_lava",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 30,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:support_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:bewitched_tome"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:harpy"
+    },
+    {
+      "minGroupCount": 3,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:skeleton_warrior"
+    },
+    {
+      "minGroupCount": 3,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 50,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:goblin"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:rocket_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:bewitched_tome"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 40,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:mother_spider"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:treasure_slime"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 70,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:haunted_tool"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:void_eye"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:festive_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 5,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:trollager"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_passive",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 4,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:lost_miner"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 40,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:sheepman"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:filch_lizard"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 100,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:dodo"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:traveling_merchant"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_water",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_lava",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:rocket_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 70,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:haunted_tool"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:harpy"
+    },
+    {
+      "minGroupCount": 3,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:skeleton_warrior"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 30,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:support_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 40,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:mother_spider"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:blazing_juggernaut"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 5,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:trollager"
+    },
+    {
+      "minGroupCount": 3,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 50,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:goblin"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:festive_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:bewitched_tome"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:treasure_slime"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_passive",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:filch_lizard"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 4,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:lost_miner"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 100,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:dodo"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 40,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:sheepman"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:traveling_merchant"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_water",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_lava",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:rocket_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:blazing_juggernaut"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:goblin"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 30,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:support_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:harpy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:festive_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:festive_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 5,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:trollager"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:treasure_slime"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:bewitched_tome"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 40,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:mother_spider"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_passive",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:traveling_merchant"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:filch_lizard"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 100,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:dodo"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 40,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:sheepman"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 4,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:lost_miner"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_water",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_lava",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:void_eye"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:blazing_juggernaut"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:trollager"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:bewitched_tome"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:bewitched_tome"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 70,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:haunted_tool"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:filch_lizard"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 100,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:dodo"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_passive",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 40,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:sheepman"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 4,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:lost_miner"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:traveling_merchant"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_water",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_lava",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 3,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 50,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:goblin"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:festive_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 70,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:haunted_tool"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:bewitched_tome"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:blazing_juggernaut"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 30,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:support_creeper"
+    },
+    {
+      "minGroupCount": 3,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:skeleton_warrior"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 4,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:lost_miner"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_passive",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:traveling_merchant"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 40,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:sheepman"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:filch_lizard"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 100,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:dodo"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_water",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_lava",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:trollager"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:treasure_slime"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 30,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:support_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:void_eye"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:festive_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:goblin"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 100,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:dodo"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:filch_lizard"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_passive",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 40,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:sheepman"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:traveling_merchant"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 4,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:lost_miner"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_water",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_lava",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 40,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:mother_spider"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:harpy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:bewitched_tome"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:traveling_merchant"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 4,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:lost_miner"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_passive",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 40,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:sheepman"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:filch_lizard"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 100,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:dodo"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_water",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_lava",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:goblin"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:rocket_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 5,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:trollager"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:bewitched_tome"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 70,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:haunted_tool"
+    },
+    {
+      "minGroupCount": 3,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 50,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:goblin"
+    },
+    {
+      "minGroupCount": 3,
+      "spawn": true,
+      "maxGroupCount": 3,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:skeleton_warrior"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 4,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:lost_miner"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_passive",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:filch_lizard"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:traveling_merchant"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 40,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:sheepman"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 100,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:dodo"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_water",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_lava",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 30,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:support_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 70,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:haunted_tool"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 40,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:mother_spider"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:festive_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:bewitched_tome"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 10,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:blazing_juggernaut"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 100,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:dodo"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_passive",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:filch_lizard"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 4,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:lost_miner"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:traveling_merchant"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_water",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_lava",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 5,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:trollager"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:goblin"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:treasure_slime"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:bewitched_tome"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 40,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:mother_spider"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:traveling_merchant"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 100,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:dodo"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 40,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:sheepman"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:filch_lizard"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_passive",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 4,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:lost_miner"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_water",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_lava",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:rocket_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 20,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:treasure_slime"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 30,
+      "creatureType": "multimob_monster",
+      "entity": "primitivemobs:support_creeper"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:traveling_merchant"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 100,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:dodo"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 25,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:filch_lizard"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 2,
+      "weight": 40,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:sheepman"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 4,
+      "creatureType": "multimob_passive",
+      "entity": "primitivemobs:lost_miner"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_passive",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_water",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 50,
+      "creatureType": "multimob_lava",
+      "entity": "multimob:dummy"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "minGroupCount": 1,
+      "spawn": true,
+      "maxGroupCount": 1,
+      "weight": 100,
+      "creatureType": "multimob_lava",
+      "entity": "primitivemobs:flame_spewer"
+    },
+    {
+      "entity": "primitivemobs:festive_creeper",
+      "creatureType": "multimob_monster",
+      "weight": 10,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:goblin",
+      "creatureType": "multimob_monster",
+      "weight": 50,
+      "minGroupCount": 3,
+      "maxGroupCount": 3,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_monster",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:goblin",
+      "creatureType": "multimob_monster",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:rocket_creeper",
+      "creatureType": "multimob_monster",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:haunted_tool",
+      "creatureType": "multimob_monster",
+      "weight": 70,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_passive",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:dodo",
+      "creatureType": "multimob_passive",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:filch_lizard",
+      "creatureType": "multimob_passive",
+      "weight": 25,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:sheepman",
+      "creatureType": "multimob_passive",
+      "weight": 40,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:traveling_merchant",
+      "creatureType": "multimob_passive",
+      "weight": 25,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:lost_miner",
+      "creatureType": "multimob_passive",
+      "weight": 4,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_water",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:flame_spewer",
+      "creatureType": "multimob_lava",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_lava",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:flame_spewer",
+      "creatureType": "multimob_lava",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:treasure_slime",
+      "creatureType": "multimob_monster",
+      "weight": 20,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:rocket_creeper",
+      "creatureType": "multimob_monster",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:goblin",
+      "creatureType": "multimob_monster",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:goblin",
+      "creatureType": "multimob_monster",
+      "weight": 50,
+      "minGroupCount": 3,
+      "maxGroupCount": 3,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:bewitched_tome",
+      "creatureType": "multimob_monster",
+      "weight": 20,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:mother_spider",
+      "creatureType": "multimob_monster",
+      "weight": 40,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_monster",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:traveling_merchant",
+      "creatureType": "multimob_passive",
+      "weight": 25,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_passive",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:dodo",
+      "creatureType": "multimob_passive",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:lost_miner",
+      "creatureType": "multimob_passive",
+      "weight": 4,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:sheepman",
+      "creatureType": "multimob_passive",
+      "weight": 40,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:filch_lizard",
+      "creatureType": "multimob_passive",
+      "weight": 25,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_water",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:flame_spewer",
+      "creatureType": "multimob_lava",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:flame_spewer",
+      "creatureType": "multimob_lava",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_lava",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:harpy",
+      "creatureType": "multimob_monster",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 3,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:blazing_juggernaut",
+      "creatureType": "multimob_monster",
+      "weight": 10,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:festive_creeper",
+      "creatureType": "multimob_monster",
+      "weight": 10,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:rocket_creeper",
+      "creatureType": "multimob_monster",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:lost_miner",
+      "creatureType": "multimob_passive",
+      "weight": 4,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:traveling_merchant",
+      "creatureType": "multimob_passive",
+      "weight": 25,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:filch_lizard",
+      "creatureType": "multimob_passive",
+      "weight": 25,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:sheepman",
+      "creatureType": "multimob_passive",
+      "weight": 40,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:dodo",
+      "creatureType": "multimob_passive",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_passive",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_water",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:flame_spewer",
+      "creatureType": "multimob_lava",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_lava",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:flame_spewer",
+      "creatureType": "multimob_lava",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:mother_spider",
+      "creatureType": "multimob_monster",
+      "weight": 40,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:trollager",
+      "creatureType": "multimob_monster",
+      "weight": 5,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:skeleton_warrior",
+      "creatureType": "multimob_monster",
+      "weight": 100,
+      "minGroupCount": 3,
+      "maxGroupCount": 3,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:blazing_juggernaut",
+      "creatureType": "multimob_monster",
+      "weight": 10,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:support_creeper",
+      "creatureType": "multimob_monster",
+      "weight": 30,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:trollager",
+      "creatureType": "multimob_monster",
+      "weight": 25,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:traveling_merchant",
+      "creatureType": "multimob_passive",
+      "weight": 25,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:sheepman",
+      "creatureType": "multimob_passive",
+      "weight": 40,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:filch_lizard",
+      "creatureType": "multimob_passive",
+      "weight": 25,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_passive",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:lost_miner",
+      "creatureType": "multimob_passive",
+      "weight": 4,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:dodo",
+      "creatureType": "multimob_passive",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_water",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:flame_spewer",
+      "creatureType": "multimob_lava",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:flame_spewer",
+      "creatureType": "multimob_lava",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_lava",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:mother_spider",
+      "creatureType": "multimob_monster",
+      "weight": 40,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:haunted_tool",
+      "creatureType": "multimob_monster",
+      "weight": 70,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:lost_miner",
+      "creatureType": "multimob_passive",
+      "weight": 4,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:dodo",
+      "creatureType": "multimob_passive",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:sheepman",
+      "creatureType": "multimob_passive",
+      "weight": 40,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:filch_lizard",
+      "creatureType": "multimob_passive",
+      "weight": 25,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:traveling_merchant",
+      "creatureType": "multimob_passive",
+      "weight": 25,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_passive",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_water",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:flame_spewer",
+      "creatureType": "multimob_lava",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:goblin",
+      "creatureType": "multimob_monster",
+      "weight": 50,
+      "minGroupCount": 3,
+      "maxGroupCount": 3,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:trollager",
+      "creatureType": "multimob_monster",
+      "weight": 5,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:dodo",
+      "creatureType": "multimob_passive",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:traveling_merchant",
+      "creatureType": "multimob_passive",
+      "weight": 25,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:lost_miner",
+      "creatureType": "multimob_passive",
+      "weight": 4,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_passive",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:sheepman",
+      "creatureType": "multimob_passive",
+      "weight": 40,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:filch_lizard",
+      "creatureType": "multimob_passive",
+      "weight": 25,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_water",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:flame_spewer",
+      "creatureType": "multimob_lava",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:flame_spewer",
+      "creatureType": "multimob_lava",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_lava",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:treasure_slime",
+      "creatureType": "multimob_monster",
+      "weight": 20,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:festive_creeper",
+      "creatureType": "multimob_monster",
+      "weight": 10,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:bewitched_tome",
+      "creatureType": "multimob_monster",
+      "weight": 20,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:sheepman",
+      "creatureType": "multimob_passive",
+      "weight": 40,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:dodo",
+      "creatureType": "multimob_passive",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:filch_lizard",
+      "creatureType": "multimob_passive",
+      "weight": 25,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:traveling_merchant",
+      "creatureType": "multimob_passive",
+      "weight": 25,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_passive",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:lost_miner",
+      "creatureType": "multimob_passive",
+      "weight": 4,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_water",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_lava",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:flame_spewer",
+      "creatureType": "multimob_lava",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:flame_spewer",
+      "creatureType": "multimob_lava",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "mowziesmobs:grottol",
+      "creatureType": "monster",
+      "weight": 2,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "natura:nitrocreeper",
+      "creatureType": "monster",
+      "weight": 8,
+      "minGroupCount": 4,
+      "maxGroupCount": 6,
+      "spawn": true
+    },
+    {
+      "entity": "natura:imp",
+      "creatureType": "creature",
+      "weight": 10,
+      "minGroupCount": 8,
+      "maxGroupCount": 12,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:goblin",
+      "creatureType": "multimob_monster",
+      "weight": 50,
+      "minGroupCount": 3,
+      "maxGroupCount": 3,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:support_creeper",
+      "creatureType": "multimob_monster",
+      "weight": 30,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:trollager",
+      "creatureType": "multimob_monster",
+      "weight": 25,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:skeleton_warrior",
+      "creatureType": "multimob_monster",
+      "weight": 100,
+      "minGroupCount": 3,
+      "maxGroupCount": 3,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:mother_spider",
+      "creatureType": "multimob_monster",
+      "weight": 40,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:haunted_tool",
+      "creatureType": "multimob_monster",
+      "weight": 70,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:festive_creeper",
+      "creatureType": "multimob_monster",
+      "weight": 10,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:blazing_juggernaut",
+      "creatureType": "multimob_monster",
+      "weight": 10,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:void_eye",
+      "creatureType": "multimob_monster",
+      "weight": 10,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:treasure_slime",
+      "creatureType": "multimob_monster",
+      "weight": 20,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:trollager",
+      "creatureType": "multimob_monster",
+      "weight": 5,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:festive_creeper",
+      "creatureType": "multimob_monster",
+      "weight": 10,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:bewitched_tome",
+      "creatureType": "multimob_monster",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:goblin",
+      "creatureType": "multimob_monster",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_monster",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:rocket_creeper",
+      "creatureType": "multimob_monster",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:bewitched_tome",
+      "creatureType": "multimob_monster",
+      "weight": 20,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:harpy",
+      "creatureType": "multimob_monster",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 3,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:sheepman",
+      "creatureType": "multimob_passive",
+      "weight": 40,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:traveling_merchant",
+      "creatureType": "multimob_passive",
+      "weight": 25,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:lost_miner",
+      "creatureType": "multimob_passive",
+      "weight": 4,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:filch_lizard",
+      "creatureType": "multimob_passive",
+      "weight": 25,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_passive",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:dodo",
+      "creatureType": "multimob_passive",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_water",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_lava",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:flame_spewer",
+      "creatureType": "multimob_lava",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:flame_spewer",
+      "creatureType": "multimob_lava",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:festive_creeper",
+      "creatureType": "multimob_monster",
+      "weight": 10,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:mother_spider",
+      "creatureType": "multimob_monster",
+      "weight": 40,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:bewitched_tome",
+      "creatureType": "multimob_monster",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:trollager",
+      "creatureType": "multimob_monster",
+      "weight": 5,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:rocket_creeper",
+      "creatureType": "multimob_monster",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:bewitched_tome",
+      "creatureType": "multimob_monster",
+      "weight": 20,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:goblin",
+      "creatureType": "multimob_monster",
+      "weight": 50,
+      "minGroupCount": 3,
+      "maxGroupCount": 3,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:blazing_juggernaut",
+      "creatureType": "multimob_monster",
+      "weight": 10,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_monster",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:skeleton_warrior",
+      "creatureType": "multimob_monster",
+      "weight": 100,
+      "minGroupCount": 3,
+      "maxGroupCount": 3,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:support_creeper",
+      "creatureType": "multimob_monster",
+      "weight": 30,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:harpy",
+      "creatureType": "multimob_monster",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 3,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:treasure_slime",
+      "creatureType": "multimob_monster",
+      "weight": 20,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:festive_creeper",
+      "creatureType": "multimob_monster",
+      "weight": 10,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:void_eye",
+      "creatureType": "multimob_monster",
+      "weight": 10,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:traveling_merchant",
+      "creatureType": "multimob_passive",
+      "weight": 25,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:filch_lizard",
+      "creatureType": "multimob_passive",
+      "weight": 25,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:sheepman",
+      "creatureType": "multimob_passive",
+      "weight": 40,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:lost_miner",
+      "creatureType": "multimob_passive",
+      "weight": 4,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:dodo",
+      "creatureType": "multimob_passive",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_passive",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_water",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_lava",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:flame_spewer",
+      "creatureType": "multimob_lava",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:flame_spewer",
+      "creatureType": "multimob_lava",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:skeleton_warrior",
+      "creatureType": "multimob_monster",
+      "weight": 100,
+      "minGroupCount": 3,
+      "maxGroupCount": 3,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:festive_creeper",
+      "creatureType": "multimob_monster",
+      "weight": 10,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:blazing_juggernaut",
+      "creatureType": "multimob_monster",
+      "weight": 10,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:harpy",
+      "creatureType": "multimob_monster",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 3,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:haunted_tool",
+      "creatureType": "multimob_monster",
+      "weight": 70,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:goblin",
+      "creatureType": "multimob_monster",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:treasure_slime",
+      "creatureType": "multimob_monster",
+      "weight": 20,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:festive_creeper",
+      "creatureType": "multimob_monster",
+      "weight": 10,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:mother_spider",
+      "creatureType": "multimob_monster",
+      "weight": 40,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_monster",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:bewitched_tome",
+      "creatureType": "multimob_monster",
+      "weight": 20,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:goblin",
+      "creatureType": "multimob_monster",
+      "weight": 50,
+      "minGroupCount": 3,
+      "maxGroupCount": 3,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:traveling_merchant",
+      "creatureType": "multimob_passive",
+      "weight": 25,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:lost_miner",
+      "creatureType": "multimob_passive",
+      "weight": 4,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:sheepman",
+      "creatureType": "multimob_passive",
+      "weight": 40,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:dodo",
+      "creatureType": "multimob_passive",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:filch_lizard",
+      "creatureType": "multimob_passive",
+      "weight": 25,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_passive",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_water",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:flame_spewer",
+      "creatureType": "multimob_lava",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "primitivemobs:flame_spewer",
+      "creatureType": "multimob_lava",
+      "weight": 100,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "multimob:dummy",
+      "creatureType": "multimob_lava",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    }
+  ],
+  "features": [
+    {
+      "randomizeGenAttempts": false,
+      "feature": "lex:fluid",
+      "hidden": false,
+      "genStage": "populate",
+      "blockToSpawn": {
+        "block": "minecraft:flowing_lava"
+      },
+      "blockToTarget": {
+        "block": "nex:netherrack",
+        "properties": {
+          "type": "gloomy"
+        }
+      },
+      "maxGenHeight": 124,
+      "genProbability": 1.0,
+      "generate": true,
+      "minGenHeight": 4,
+      "genAttempts": 8
+    },
+    {
+      "randomizeGenAttempts": true,
+      "feature": "lex:cluster",
+      "genStage": "populate",
+      "blockToSpawn": {
+        "block": "minecraft:glowstone"
+      },
+      "maxGenHeight": 124,
+      "genProbability": 1.0,
+      "blockToAttachTo": {
+        "block": "nex:netherrack",
+        "properties": {
+          "type": "gloomy"
+        }
+      },
+      "generate": true,
+      "minGenHeight": 4,
+      "direction": "down",
+      "genAttempts": 10
+    },
+    {
+      "randomizeGenAttempts": false,
+      "feature": "lex:cluster",
+      "genStage": "populate",
+      "blockToSpawn": {
+        "block": "minecraft:glowstone"
+      },
+      "maxGenHeight": 128,
+      "genProbability": 1.0,
+      "blockToAttachTo": {
+        "block": "nex:netherrack",
+        "properties": {
+          "type": "gloomy"
+        }
+      },
+      "generate": true,
+      "minGenHeight": 1,
+      "direction": "down",
+      "genAttempts": 10
+    },
+    {
+      "randomizeGenAttempts": false,
+      "feature": "lex:ore",
+      "genStage": "ore",
+      "blockToSpawn": {
+        "block": "nex:quartz_ore",
+        "properties": {
+          "type": "gloomy"
+        }
+      },
+      "veinSize": 14,
+      "maxGenHeight": 108,
+      "blockToReplace": {
+        "block": "nex:netherrack",
+        "properties": {
+          "type": "gloomy"
+        }
+      },
+      "genProbability": 1.0,
+      "generate": true,
+      "minGenHeight": 10,
+      "genAttempts": 16
+    },
+    {
+      "randomizeGenAttempts": false,
+      "feature": "lex:fluid",
+      "hidden": true,
+      "genStage": "populate",
+      "blockToSpawn": {
+        "block": "minecraft:flowing_lava"
+      },
+      "blockToTarget": {
+        "block": "nex:netherrack",
+        "properties": {
+          "type": "gloomy"
+        }
+      },
+      "maxGenHeight": 118,
+      "genProbability": 1.0,
+      "generate": true,
+      "minGenHeight": 10,
+      "genAttempts": 16
+    },
+    {
+      "randomizeGenAttempts": false,
+      "feature": "nex:thornstalk",
+      "genStage": "decorate",
+      "maxGenHeight": 108,
+      "genProbability": 1.0,
+      "generate": true,
+      "minGenHeight": 32,
+      "genAttempts": 16
+    }
+  ]
+}

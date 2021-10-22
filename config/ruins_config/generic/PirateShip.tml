@@ -1,9 +1,10 @@
 # Author: Arrrg
 # From: Minecraft Forums
 
-uniqueMinDistance=1000
+uniqueMinDistance=2000
 
 weight=1
+unique=1
 embed_into_distance=3
 acceptable_target_blocks=water
 dimensions=38,30,30

@@ -1,16 +1,16 @@
 # Author: AtomicStryker
 # From: Default Template
 
-biomesToSpawnIn=jungle,junglehills,mini jungle,jungle_hills,jungle_edge,mini_jungle
+biomesToSpawnIn=jungle,junglehills,mini jungle
 weight=3
-embed_into_distance=0
-unacceptable_target_blocks=flowing_water,water,flowing_lava,lava,Natura:Cloud,red_mushroom_block,brown_mushroom_block,planks,cobblestone,end_stone,obsidian,purpur_block,iron_bars,purpur_slab,purpur_pillar,netherrack,soul_sand,quartz_ore
+embed_into_distance=1
+acceptable_target_blocks=stone,grass,dirt,sand,gravel
 dimensions=20,11,12
 allowable_overhang=4
 max_cut_in=2
 cut_in_buffer=1
 max_leveling=2
-leveling_buffer=0
+leveling_buffer=1
 preserve_water=1
 preserve_lava=0
 preserve_plants=1
